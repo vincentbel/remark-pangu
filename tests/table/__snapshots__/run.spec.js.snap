@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`table.md 1`] = `
+| header abc123 | header 我a我1 |
+| :-- | :-: |
+| cell abc123 | cell 我a我1 |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| header abc123 | header 我 a 我 1 |
+| :------------ | :------------: |
+| cell abc123   |  cell 我 a 我 1  |
+
+`;

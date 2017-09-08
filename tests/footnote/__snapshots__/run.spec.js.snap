@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footnote.md 1`] = `
+lol[^footnote]
+
+我的a天[^脚注1]
+
+[^footnote]: abc123 我1我a
+
+[^脚注1]: acb123 我1我a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lol[^footnote]
+
+我的 a 天[^脚注1]
+
+[^footnote]: abc123 我 1 我 a
+
+[^脚注1]: acb123 我 1 我 a
+
+`;

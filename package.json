@@ -1,0 +1,51 @@
+{
+  "name": "remark-pangu",
+  "version": "0.0.0-development",
+  "description": "Remark plugin to Automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols) by using pangu.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VincentBel/remark-pangu.git"
+  },
+  "keywords": [
+    "pangu",
+    "remark",
+    "plugin",
+    "spacing"
+  ],
+  "author": "VincentBel <buaazqh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VincentBel/remark-pangu/issues"
+  },
+  "homepage": "https://github.com/VincentBel/remark-pangu#readme",
+  "dependencies": {
+    "pangu": "^3.3.0",
+    "unist-util-is": "^2.1.1",
+    "unist-util-visit": "^1.1.3"
+  },
+  "devDependencies": {
+    "jest": "^21.0.1",
+    "remark-frontmatter": "^1.1.0",
+    "remark-parse": "^4.0.0",
+    "remark-stringify": "^4.0.0",
+    "unified": "^6.1.5",
+    "semantic-release": "^7.0.2"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/tests-config/setup.js"
+    ],
+    "snapshotSerializers": [
+      "<rootDir>/tests-config/raw-serializer.js"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "index.js"
+    ]
+  }
+}

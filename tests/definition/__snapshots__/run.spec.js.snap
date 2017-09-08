@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`definition.md 1`] = `
+[链接a引用1][link]
+
+![图片b引用2][link]
+
+[link]: http://example.com/链接a链接1 "标题a标题1"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[链接 a 引用 1][link]
+
+![图片 b 引用 2][link]
+
+[link]: http://example.com/链接a链接1 "标题 a 标题 1"
+
+`;

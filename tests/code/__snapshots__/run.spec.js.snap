@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`code.md 1`] = `
+\`\`\`javascript
+const a = 123
+const b = 'abc123'
+const c = '我a我1'
+\`\`\`
+
+
+    const a = 123
+    const b = 'abc123'
+    const c = '我a我1'
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\`\`\`javascript
+const a = 123
+const b = 'abc123'
+const c = '我a我1'
+\`\`\`
+
+    const a = 123
+    const b = 'abc123'
+    const c = '我a我1'
+
+`;
