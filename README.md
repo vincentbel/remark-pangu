@@ -24,7 +24,9 @@ const remark = require('remark')
 const pangu = require('remark-pangu')
 
 const doc = '中文abc中文';
-console.log(remark().use(pangu).process(doc).contents);
+remark().use(pangu).process(doc, (err, file) => {
+  console.log(String(file));
+});
 // => 中文 abc 中文
 ```
 
