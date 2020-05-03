@@ -3,6 +3,7 @@
 var visit = require('unist-util-visit')
 var is = require('unist-util-is')
 var pangu = require('pangu')
+const setOptions = require('./set-options')
 
 // List of Markdown AST: <https://github.com/syntax-tree/mdast>
 // AST Explorer: <https://astexplorer.net/#/gist/7a794a8fc43b2e75e27024c85fb77aad/0934495eb735dffdf739dc7943f7848940070f8e>
@@ -54,8 +55,13 @@ function visitor(node) {
   }
 }
 
-module.exports = function attacher() {
+module.exports = function attacher(options) {
+  const settings = setOptions(options || {})
+  const subset = Object.keys(settings).filter(e => settings[e])
   return function transformer(tree, file) {
-    visit(tree, visitor)
+    visit(tree, (node) => {
+      if (is(subset, node))
+        visitor(node)
+    })
   }
 }
