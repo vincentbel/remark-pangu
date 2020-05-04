@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`strong.md: strong.md 1`] = `
+exports[`strong.md with options: {"text":false}: strong.md 1`] = `
+**abc123**
+
+**我a我1**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**abc123**
+
+**我a我1**
+
+`;
+
+exports[`strong.md with options: undefined: strong.md 1`] = `
 **abc123**
 
 **我a我1**

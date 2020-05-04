@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`code.md: code.md 1`] = `
+exports[`code.md with options: undefined: code.md 1`] = `
 \`\`\`javascript
 const a = 123
 const b = 'abc123'

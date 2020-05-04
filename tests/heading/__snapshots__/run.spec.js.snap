@@ -1,6 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`heading.md: heading.md 1`] = `
+exports[`heading.md with options: {"text":false}: heading.md 1`] = `
+# abc123
+
+# 我1我a
+
+
+## abc123
+
+## 我1我a
+
+
+### abc123
+
+### 我1我a
+
+
+#### abc123
+
+#### 我1我a
+
+
+##### abc123
+
+##### 我1我a
+
+
+###### abc123
+
+###### 我1我a
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# abc123
+
+# 我1我a
+
+## abc123
+
+## 我1我a
+
+### abc123
+
+### 我1我a
+
+#### abc123
+
+#### 我1我a
+
+##### abc123
+
+##### 我1我a
+
+###### abc123
+
+###### 我1我a
+
+`;
+
+exports[`heading.md with options: undefined: heading.md 1`] = `
 # abc123
 
 # 我1我a
