@@ -4,7 +4,9 @@
   "description": "Remark plugin to Automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols) by using pangu.js",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "defaults.js",
+    "set-options.js"
   ],
   "scripts": {
     "test": "jest",
