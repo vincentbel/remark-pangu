@@ -46,7 +46,7 @@ function visitor(node) {
   }
 
   if (is('link', node) || is('image', node) || is('definition', node)) {
-    node.title = format(node.title || '')
+    node.title = format(node.title)
   }
 
   if (is('image', node) || is('imageReference', node)) {
