@@ -1,6 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`image.md all off processor: image.md 1`] = `
+![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![说明 a 说明 1](http://example.com/链接a链接1 "标题 a 标题 1")
+
+`;
+
+exports[`image.md all off processor: image.md 2`] = `
+![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![说明 a 说明 1](http://example.com/链接a链接1 "标题 a 标题 1")
+
+`;
+
+exports[`image.md all off processor: image.md 3`] = `
+![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![说明 a 说明 1](http://example.com/链接a链接1 "标题 a 标题 1")
+
+`;
+
 exports[`image.md: image.md 1`] = `
+![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![说明 a 说明 1](http://example.com/链接a链接1 "标题 a 标题 1")
+
+`;
+
+exports[`image.md: image.md 2`] = `
+![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
+
+`;
+
+exports[`image.md: image.md 3`] = `
 ![说明a说明1](http://example.com/链接a链接1 "标题a标题1")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ![说明 a 说明 1](http://example.com/链接a链接1 "标题 a 标题 1")

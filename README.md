@@ -32,9 +32,9 @@ remark().use(pangu).process(doc, (err, file) => {
 
 ### Options
 
-可以通过指定部分选项为`false`以跳过部分节点的排版处理
+可以通过指定部分选项为 `false` 以跳过部分节点的排版处理
 
-e.g. 不处理`inline code`的内容
+e.g. 不处理 `inline code` 的内容
 
 ```js
 remark().use(pangu, {

@@ -1,5 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`strong.md all off processor: strong.md 1`] = `
+**abc123**
+
+**我a我1**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**abc123**
+
+**我 a 我 1**
+
+`;
+
+exports[`strong.md all off processor: strong.md 2`] = `
+**abc123**
+
+**我a我1**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**abc123**
+
+**我 a 我 1**
+
+`;
+
 exports[`strong.md: strong.md 1`] = `
 **abc123**
 
@@ -8,5 +30,16 @@ exports[`strong.md: strong.md 1`] = `
 **abc123**
 
 **我 a 我 1**
+
+`;
+
+exports[`strong.md: strong.md 2`] = `
+**abc123**
+
+**我a我1**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**abc123**
+
+**我a我1**
 
 `;
