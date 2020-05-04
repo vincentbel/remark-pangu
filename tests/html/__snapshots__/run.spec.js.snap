@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`html.md 1`] = `
+exports[`html.md: html.md 1`] = `
 <div>abc123</div>
 
 <div>我a我1</div>

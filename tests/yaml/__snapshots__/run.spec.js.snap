@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`yaml.md 1`] = `
+exports[`yaml.md: yaml.md 1`] = `
 ---
 foo: abc123
 bar: 我a我1

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`heading.md 1`] = `
+exports[`heading.md: heading.md 1`] = `
 # abc123
 
 # 我1我a
