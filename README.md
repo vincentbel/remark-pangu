@@ -30,6 +30,31 @@ remark().use(pangu).process(doc, (err, file) => {
 // => 中文 abc 中文
 ```
 
+### Options
+
+可以通过指定部分选项为`false`以跳过部分节点的排版处理
+
+e.g. 不处理`inline code`的内容
+
+```js
+remark().use(pangu, {
+  inlineCode: false
+})
+```
+
+#### Default Options
+
+```js
+{
+  text: true,
+  inlineCode: true,
+  link: true,
+  image: true,
+  imageReference: true,
+  definition: true,
+}
+```
+
 ## LICENSE
 
 [MIT](./LICENSE)
