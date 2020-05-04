@@ -41,15 +41,15 @@ function format(value) {
 }
 
 function visitor(node) {
-  if (is('text', node) || is('inlineCode', node)) {
+  if (is(node, 'text') || is(node, 'inlineCode')) {
     node.value = format(node.value)
   }
 
-  if (is('link', node) || is('image', node) || is('definition', node)) {
+  if (is(node, 'link') || is(node, 'image') || is(node, 'definition')) {
     node.title = format(node.title)
   }
 
-  if (is('image', node) || is('imageReference', node)) {
+  if (is(node, 'image') || is(node, 'imageReference')) {
     node.alt = format(node.alt)
   }
 }
