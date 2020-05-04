@@ -1,9 +1,9 @@
-'use strict'
+"use strict";
 
-const visit = require('unist-util-visit')
-const is = require('unist-util-is')
-const pangu = require('pangu')
-const setOptions = require('./set-options')
+const visit = require("unist-util-visit");
+const is = require("unist-util-is");
+const pangu = require("pangu");
+const setOptions = require("./set-options");
 
 // List of Markdown AST: <https://github.com/syntax-tree/mdast>
 // AST Explorer: <https://astexplorer.net/#/gist/7a794a8fc43b2e75e27024c85fb77aad/0934495eb735dffdf739dc7943f7848940070f8e>
@@ -37,31 +37,31 @@ const setOptions = require('./set-options')
 //     3. ...
 
 function format(value) {
-  if (!value) return value
-  return pangu.spacing(value)
+  if (!value) return value;
+  return pangu.spacing(value);
 }
 
 function visitor(node) {
-  if (is(node, 'text') || is(node, 'inlineCode')) {
-    node.value = format(node.value)
+  if (is(node, "text") || is(node, "inlineCode")) {
+    node.value = format(node.value);
   }
 
-  if (is(node, 'link') || is(node, 'image') || is(node, 'definition')) {
-    node.title = format(node.title)
+  if (is(node, "link") || is(node, "image") || is(node, "definition")) {
+    node.title = format(node.title);
   }
 
-  if (is(node, 'image') || is(node, 'imageReference')) {
-    node.alt = format(node.alt)
+  if (is(node, "image") || is(node, "imageReference")) {
+    node.alt = format(node.alt);
   }
 }
 
 module.exports = function attacher(options) {
-  const settings = setOptions(options || {})
-  const subset = Object.keys(settings).filter(e => settings[e])
+  const settings = setOptions(options || {});
+  const subset = Object.keys(settings).filter((e) => settings[e]);
+
   return function transformer(tree, file) {
     visit(tree, (node) => {
-      if (is(subset, node))
-        visitor(node)
-    })
-  }
-}
+      if (is(node, subset)) visitor(node);
+    });
+  };
+};
