@@ -1,6 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`blockquote.md all off processor: blockquote.md 1`] = `
+exports[`blockquote.md with options: {"text":false}: blockquote.md 1`] = `
+> abc123
+
+> 我a我1
+
+> _abc123_
+
+> _我a我1_
+
+> **abc123**
+
+> **我a我1**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> abc123
+
+> 我a我1
+
+> _abc123_
+
+> _我a我1_
+
+> **abc123**
+
+> **我a我1**
+
+`;
+
+exports[`blockquote.md with options: undefined: blockquote.md 1`] = `
 > abc123
 
 > 我a我1
@@ -24,86 +51,5 @@ exports[`blockquote.md all off processor: blockquote.md 1`] = `
 > **abc123**
 
 > **我 a 我 1**
-
-`;
-
-exports[`blockquote.md all off processor: blockquote.md 2`] = `
-> abc123
-
-> 我a我1
-
-> _abc123_
-
-> _我a我1_
-
-> **abc123**
-
-> **我a我1**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-> abc123
-
-> 我 a 我 1
-
-> _abc123_
-
-> _我 a 我 1_
-
-> **abc123**
-
-> **我 a 我 1**
-
-`;
-
-exports[`blockquote.md: blockquote.md 1`] = `
-> abc123
-
-> 我a我1
-
-> _abc123_
-
-> _我a我1_
-
-> **abc123**
-
-> **我a我1**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-> abc123
-
-> 我 a 我 1
-
-> _abc123_
-
-> _我 a 我 1_
-
-> **abc123**
-
-> **我 a 我 1**
-
-`;
-
-exports[`blockquote.md: blockquote.md 2`] = `
-> abc123
-
-> 我a我1
-
-> _abc123_
-
-> _我a我1_
-
-> **abc123**
-
-> **我a我1**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-> abc123
-
-> 我a我1
-
-> _abc123_
-
-> _我a我1_
-
-> **abc123**
-
-> **我a我1**
 
 `;

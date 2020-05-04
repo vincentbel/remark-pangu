@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`inline-code.md all off processor: inline-code.md 1`] = `
+exports[`inline-code.md with options: {"inlineCode":false}: inline-code.md 1`] = `
+\`abc123\`
+
+\`我a我1\`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\`abc123\`
+
+\`我a我1\`
+
+`;
+
+exports[`inline-code.md with options: undefined: inline-code.md 1`] = `
 \`abc123\`
 
 \`我a我1\`
@@ -8,38 +19,5 @@ exports[`inline-code.md all off processor: inline-code.md 1`] = `
 \`abc123\`
 
 \`我 a 我 1\`
-
-`;
-
-exports[`inline-code.md all off processor: inline-code.md 2`] = `
-\`abc123\`
-
-\`我a我1\`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\`abc123\`
-
-\`我 a 我 1\`
-
-`;
-
-exports[`inline-code.md: inline-code.md 1`] = `
-\`abc123\`
-
-\`我a我1\`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\`abc123\`
-
-\`我 a 我 1\`
-
-`;
-
-exports[`inline-code.md: inline-code.md 2`] = `
-\`abc123\`
-
-\`我a我1\`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-\`abc123\`
-
-\`我a我1\`
 
 `;

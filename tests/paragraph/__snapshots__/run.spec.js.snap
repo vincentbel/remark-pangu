@@ -1,29 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`paragraph.md all off processor: paragraph.md 1`] = `
+exports[`paragraph.md with options: {"text":false}: paragraph.md 1`] = `
 段落lol。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-段落 lol。
+段落lol。
 
 `;
 
-exports[`paragraph.md all off processor: paragraph.md 2`] = `
+exports[`paragraph.md with options: undefined: paragraph.md 1`] = `
 段落lol。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 段落 lol。
-
-`;
-
-exports[`paragraph.md: paragraph.md 1`] = `
-段落lol。
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-段落 lol。
-
-`;
-
-exports[`paragraph.md: paragraph.md 2`] = `
-段落lol。
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-段落lol。
 
 `;

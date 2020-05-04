@@ -1,39 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`table.md all off processor: table.md 1`] = `
-| header abc123 | header 我a我1 |
-| :-- | :-: |
-| cell abc123 | cell 我a我1 |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-| header abc123 | header 我 a 我 1 |
-| :------------ | :------------: |
-| cell abc123   |  cell 我 a 我 1  |
-
-`;
-
-exports[`table.md all off processor: table.md 2`] = `
-| header abc123 | header 我a我1 |
-| :-- | :-: |
-| cell abc123 | cell 我a我1 |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-| header abc123 | header 我 a 我 1 |
-| :------------ | :------------: |
-| cell abc123   |  cell 我 a 我 1  |
-
-`;
-
-exports[`table.md: table.md 1`] = `
-| header abc123 | header 我a我1 |
-| :-- | :-: |
-| cell abc123 | cell 我a我1 |
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-| header abc123 | header 我 a 我 1 |
-| :------------ | :------------: |
-| cell abc123   |  cell 我 a 我 1  |
-
-`;
-
-exports[`table.md: table.md 2`] = `
+exports[`table.md with options: {"text":false}: table.md 1`] = `
 | header abc123 | header 我a我1 |
 | :-- | :-: |
 | cell abc123 | cell 我a我1 |
@@ -41,5 +8,16 @@ exports[`table.md: table.md 2`] = `
 | header abc123 | header 我a我1 |
 | :------------ | :---------: |
 | cell abc123   |  cell 我a我1  |
+
+`;
+
+exports[`table.md with options: undefined: table.md 1`] = `
+| header abc123 | header 我a我1 |
+| :-- | :-: |
+| cell abc123 | cell 我a我1 |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| header abc123 | header 我 a 我 1 |
+| :------------ | :------------: |
+| cell abc123   |  cell 我 a 我 1  |
 
 `;

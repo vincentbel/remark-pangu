@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`emphasis.md all off processor: emphasis.md 1`] = `
+exports[`emphasis.md with options: {"text":false}: emphasis.md 1`] = `
+_abc123_
+
+_强调a强调1_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+_abc123_
+
+_强调a强调1_
+
+`;
+
+exports[`emphasis.md with options: undefined: emphasis.md 1`] = `
 _abc123_
 
 _强调a强调1_
@@ -8,38 +19,5 @@ _强调a强调1_
 _abc123_
 
 _强调 a 强调 1_
-
-`;
-
-exports[`emphasis.md all off processor: emphasis.md 2`] = `
-_abc123_
-
-_强调a强调1_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-_abc123_
-
-_强调 a 强调 1_
-
-`;
-
-exports[`emphasis.md: emphasis.md 1`] = `
-_abc123_
-
-_强调a强调1_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-_abc123_
-
-_强调 a 强调 1_
-
-`;
-
-exports[`emphasis.md: emphasis.md 2`] = `
-_abc123_
-
-_强调a强调1_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-_abc123_
-
-_强调a强调1_
 
 `;

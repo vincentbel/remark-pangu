@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`delete.md all off processor: delete.md 1`] = `
+exports[`delete.md with options: {"text":false}: delete.md 1`] = `
+~~abc123~~
+
+~~我a我1~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~abc123~~
+
+~~我a我1~~
+
+`;
+
+exports[`delete.md with options: undefined: delete.md 1`] = `
 ~~abc123~~
 
 ~~我a我1~~
@@ -8,38 +19,5 @@ exports[`delete.md all off processor: delete.md 1`] = `
 ~~abc123~~
 
 ~~我 a 我 1~~
-
-`;
-
-exports[`delete.md all off processor: delete.md 2`] = `
-~~abc123~~
-
-~~我a我1~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~abc123~~
-
-~~我 a 我 1~~
-
-`;
-
-exports[`delete.md: delete.md 1`] = `
-~~abc123~~
-
-~~我a我1~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~abc123~~
-
-~~我 a 我 1~~
-
-`;
-
-exports[`delete.md: delete.md 2`] = `
-~~abc123~~
-
-~~我a我1~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~abc123~~
-
-~~我a我1~~
 
 `;

@@ -1,33 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ordered-list.md all off processor: ordered-list.md 1`] = `
-1. abc123
-2. 我a我1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1.  abc123
-2.  我 a 我 1
-
-`;
-
-exports[`ordered-list.md all off processor: ordered-list.md 2`] = `
-1. abc123
-2. 我a我1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1.  abc123
-2.  我 a 我 1
-
-`;
-
-exports[`ordered-list.md: ordered-list.md 1`] = `
-1. abc123
-2. 我a我1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1.  abc123
-2.  我 a 我 1
-
-`;
-
-exports[`ordered-list.md: ordered-list.md 2`] = `
+exports[`ordered-list.md with options: {"text":false}: ordered-list.md 1`] = `
 1. abc123
 2. 我a我1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,38 +9,29 @@ exports[`ordered-list.md: ordered-list.md 2`] = `
 
 `;
 
-exports[`unordered-list.md all off processor: unordered-list.md 1`] = `
-* abc123
-* 我a我1
+exports[`ordered-list.md with options: undefined: ordered-list.md 1`] = `
+1. abc123
+2. 我a我1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--   abc123
--   我 a 我 1
+1.  abc123
+2.  我 a 我 1
 
 `;
 
-exports[`unordered-list.md all off processor: unordered-list.md 2`] = `
-* abc123
-* 我a我1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--   abc123
--   我 a 我 1
-
-`;
-
-exports[`unordered-list.md: unordered-list.md 1`] = `
-* abc123
-* 我a我1
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--   abc123
--   我 a 我 1
-
-`;
-
-exports[`unordered-list.md: unordered-list.md 2`] = `
+exports[`unordered-list.md with options: {"text":false}: unordered-list.md 1`] = `
 * abc123
 * 我a我1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -   abc123
 -   我a我1
+
+`;
+
+exports[`unordered-list.md with options: undefined: unordered-list.md 1`] = `
+* abc123
+* 我a我1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-   abc123
+-   我 a 我 1
 
 `;

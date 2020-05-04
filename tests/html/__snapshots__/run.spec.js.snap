@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`html.md all off processor: html.md 1`] = `
+exports[`html.md with options: {"link":false}: html.md 1`] = `
 <div>abc123</div>
 
 <div>我a我1</div>
@@ -15,37 +15,7 @@ exports[`html.md all off processor: html.md 1`] = `
 
 `;
 
-exports[`html.md all off processor: html.md 2`] = `
-<div>abc123</div>
-
-<div>我a我1</div>
-
-<img src="https://a.com/中文a" alt="中文a" />
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<div>abc123</div>
-
-<div>我a我1</div>
-
-<img src="https://a.com/中文a" alt="中文a" />
-
-`;
-
-exports[`html.md: html.md 1`] = `
-<div>abc123</div>
-
-<div>我a我1</div>
-
-<img src="https://a.com/中文a" alt="中文a" />
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<div>abc123</div>
-
-<div>我a我1</div>
-
-<img src="https://a.com/中文a" alt="中文a" />
-
-`;
-
-exports[`html.md: html.md 2`] = `
+exports[`html.md with options: undefined: html.md 1`] = `
 <div>abc123</div>
 
 <div>我a我1</div>

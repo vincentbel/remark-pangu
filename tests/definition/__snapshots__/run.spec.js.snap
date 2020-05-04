@@ -1,6 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`definition.md all off processor: definition.md 1`] = `
+exports[`definition.md with options: {"definition":false}: definition.md 1`] = `
+[链接a引用1][link]
+
+![图片b引用2][link]
+
+[link]: http://example.com/链接a链接1 "标题a标题1"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[链接 a 引用 1][link]
+
+![图片 b 引用 2][link]
+
+[link]: http://example.com/链接a链接1 "标题a标题1"
+
+`;
+
+exports[`definition.md with options: undefined: definition.md 1`] = `
 [链接a引用1][link]
 
 ![图片b引用2][link]
@@ -12,50 +27,5 @@ exports[`definition.md all off processor: definition.md 1`] = `
 ![图片 b 引用 2][link]
 
 [link]: http://example.com/链接a链接1 "标题 a 标题 1"
-
-`;
-
-exports[`definition.md all off processor: definition.md 2`] = `
-[链接a引用1][link]
-
-![图片b引用2][link]
-
-[link]: http://example.com/链接a链接1 "标题a标题1"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[链接 a 引用 1][link]
-
-![图片 b 引用 2][link]
-
-[link]: http://example.com/链接a链接1 "标题 a 标题 1"
-
-`;
-
-exports[`definition.md: definition.md 1`] = `
-[链接a引用1][link]
-
-![图片b引用2][link]
-
-[link]: http://example.com/链接a链接1 "标题a标题1"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[链接 a 引用 1][link]
-
-![图片 b 引用 2][link]
-
-[link]: http://example.com/链接a链接1 "标题 a 标题 1"
-
-`;
-
-exports[`definition.md: definition.md 2`] = `
-[链接a引用1][link]
-
-![图片b引用2][link]
-
-[link]: http://example.com/链接a链接1 "标题a标题1"
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[链接 a 引用 1][link]
-
-![图片 b 引用 2][link]
-
-[link]: http://example.com/链接a链接1 "标题a标题1"
 
 `;
