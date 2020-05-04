@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`inline-code.md 1`] = `
+exports[`inline-code.md: inline-code.md 1`] = `
 \`abc123\`
 
 \`我a我1\`

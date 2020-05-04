@@ -32,7 +32,7 @@
     "unist-util-visit": "^2.0.2"
   },
   "devDependencies": {
-    "jest": "^21.0.1",
+    "jest": "^25.5.4",
     "remark-footnotes": "^1.0.0",
     "remark-frontmatter": "^2.0.0",
     "remark-parse": "^8.0.2",
