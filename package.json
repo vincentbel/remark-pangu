@@ -37,7 +37,7 @@
     "remark-frontmatter": "^2.0.0",
     "remark-parse": "^8.0.2",
     "remark-stringify": "^8.0.0",
-    "semantic-release": "^7.0.2",
+    "semantic-release": "^17.0.7",
     "unified": "^9.0.0"
   },
   "jest": {
