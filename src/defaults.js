@@ -8,11 +8,16 @@ module.exports = {
     image: true,
     imageReference: true,
     definition: true,
-    html: true,
+    html: false,
   },
-  parents: {
-    // text: {
-    //   link: true
-    // }
+  parent: {
+    /**
+     * Skip parent-children pairs
+     * E.g 
+     * link: {
+     *  text: true
+     * }
+     * means skip all text children under link
+     */
   }
 };

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`mixed.md with options: {"type":{"definition":false,"image":false,"something":true}}: mixed.md 1`] = `
+exports[`mixed.md with options: {"parents":{"link":{"text":true}}}: mixed.md 1`] = `
 ---
 foo: bar
 baz: lol
@@ -33,9 +33,9 @@ baz: lol
 
 
 
-链接[关于about me我](http://中文some link链接 "我的天a吧")
+链接[关于about me我](http://中文somelink链接 "我的天a吧")
 
-图片![关于about me我](中文some link链接 "我的天a吧")
+图片![关于about me我](https://中文somelink链接 "我的天a吧")
 
 
 
@@ -116,9 +116,173 @@ baz: lol
 
 段落 c**粗体 b 粗体_强调 a 强调_粗体\`行内 code block 代码段\`~~删除 delete me 线~~**段落
 
-链接[关于 about me 我]\\(http&#x3A;// 中文 some link 链接 "我的天 a 吧")
+链接[关于 about me 我](http://中文somelink链接 "我的天 a 吧")
 
-图片![关于 about me 我]\\(中文 some link 链接 "我的天 a 吧")
+图片![关于 about me 我](https://中文somelink链接 "我的天 a 吧")
+
+HTML 测试 1<div>test it</div>
+
+HTML 测试 2<img src="a link" alt="test it" />
+
+HTML 测试 3<div style="color:black"><span>a <a href="link a">Link Me</a></span></div>
+
+> 引用 1 引用 a
+
+> 引用 2**粗体 b 粗体**引用 b
+
+* * *
+
+\`\`\`javascript
+function (a, b) {
+  console.log('测试!测试');
+}
+\`\`\`
+
+-   列表 1 条目 a
+-   列表 2 条目 b
+-   列表 3 条目 c
+
+1.  列表 1 条目 a
+2.  列表 2 条目 b
+3.  列表 3 条目 c
+
+| 标题 1 标题 a | 标题 2 标题 b |
+| :-------- | :-------: |
+| 内容 1 内容 a | 内容 2 内容 b |
+
+[链接 a 引用 1][bravo]
+
+[图片 b 引用 2][bravo]
+
+lol[^footnote]，我的 a 天[^脚注1]
+
+[^footnote]: abc123 我 1 我 a
+
+[^脚注1]: acb123 我 1 我 a
+
+[bravo]: http://example.com "测试 test 我"
+
+`;
+
+exports[`mixed.md with options: {"type":{"definition":false,"image":false,"something":true}}: mixed.md 1`] = `
+---
+foo: bar
+baz: lol
+---
+
+# 标题1标题a
+
+## 标题2标题b
+
+### 标题3标题c
+
+#### 标题4标题d
+
+##### 标题5标题e
+
+###### 标题6标题f
+
+
+段落lol。
+
+段落a*强调a强调*段落
+
+段落b**粗体b粗体**段落
+
+段落\`行内code block代码段\`行内代码段
+
+段落~~删除delete me线~~段落
+
+段落c**粗体b粗体*强调a强调*粗体\`行内code block代码段\`~~删除delete me线~~**段落
+
+
+
+链接[关于about me我](http://中文somelink链接 "我的天a吧")
+
+图片![关于about me我](https://中文somelink链接 "我的天a吧")
+
+
+
+HTML测试1<div>test it</div>
+
+HTML测试2<img src="a link" alt="test it" />
+
+HTML测试3<div style="color:black"><span>a <a href="link a">Link Me</a></span></div>
+
+
+> 引用1引用a
+
+> 引用2**粗体b粗体**引用b
+
+---
+
+
+\`\`\`javascript
+function (a, b) {
+  console.log('测试!测试');
+}
+\`\`\`
+
+
+* 列表1条目a
+* 列表2条目b
+* 列表3条目c
+
+
+1. 列表1条目a
+2. 列表2条目b
+3. 列表3条目c
+
+
+| 标题1标题a | 标题2标题b |
+| :-- | :-: |
+| 内容1内容a | 内容2内容b |
+
+
+
+[链接a引用1][bravo]
+
+[图片b引用2][bravo]
+
+lol[^footnote]，我的a天[^脚注1]
+
+[^footnote]: abc123 我1我a
+[^脚注1]: acb123 我1我a
+
+[bravo]: http://example.com "测试test 我"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---
+foo: bar
+baz: lol
+---
+
+# 标题 1 标题 a
+
+## 标题 2 标题 b
+
+### 标题 3 标题 c
+
+#### 标题 4 标题 d
+
+##### 标题 5 标题 e
+
+###### 标题 6 标题 f
+
+段落 lol。
+
+段落 a_强调 a 强调_段落
+
+段落 b**粗体 b 粗体**段落
+
+段落\`行内 code block 代码段\`行内代码段
+
+段落~~删除 delete me 线~~段落
+
+段落 c**粗体 b 粗体_强调 a 强调_粗体\`行内 code block 代码段\`~~删除 delete me 线~~**段落
+
+链接[关于 about me 我](http://中文somelink链接 "我的天 a 吧")
+
+图片![关于about me我](https://中文somelink链接 "我的天a吧")
 
 HTML 测试 1<div>test it</div>
 

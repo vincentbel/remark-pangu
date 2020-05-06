@@ -6,3 +6,11 @@ runSpec(__dirname, {
     text: undefined,
   },
 });
+runSpec(__dirname, {
+    parents: {
+        link: {
+          text: true
+        }
+    }
+  });
+  

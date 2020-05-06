@@ -24,8 +24,8 @@ exports[`html.md with options: undefined: html.md 1`] = `
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <div>abc123</div>
 
-<div> 我 a 我 1</div>
+<div>我a我1</div>
 
-<img src="https://a.com/ 中文 a" alt="中文 a" />
+<img src="https://a.com/中文a" alt="中文a" />
 
 `;

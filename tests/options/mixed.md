@@ -30,9 +30,9 @@ baz: lol
 
 
 
-链接[关于about me我](http://中文some link链接 "我的天a吧")
+链接[关于about me我](http://中文somelink链接 "我的天a吧")
 
-图片![关于about me我](中文some link链接 "我的天a吧")
+图片![关于about me我](https://中文somelink链接 "我的天a吧")
 
 
 

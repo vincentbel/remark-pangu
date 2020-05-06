@@ -17,11 +17,11 @@ module.exports = (options) => {
     if (typeof options.type === "object") {
       mixed.type = mergeOptions(defaults.type, options.type);
     }
-    if (typeof options.parents === "object") {
-      for (const key in options.parents) {
-        mixed.parents[key] = mergeOptions(
-          defaults.parents[key],
-          options.parents[key]
+    if (typeof options.parent === "object") {
+      for (const key in options.parent) {
+        mixed.parent[key] = mergeOptions(
+          defaults.parent[key],
+          options.parent[key]
         );
       }
     }

@@ -76,7 +76,7 @@ module.exports = function attacher(options) {
   return function transformer(tree, file) {
     visit(tree, (node, index, parent) => {
       if (typeIdentifier(node, subset)) 
-        if (parentIdentifier(parent, settings.parents[node.type]))
+        if (parentIdentifier(parent, settings.parent[node.type]))
           handler(node);
     });
   };
