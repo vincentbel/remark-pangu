@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`emphasis.md with options: {"text":false}: emphasis.md 1`] = `
+exports[`emphasis.md with options: {"type":{"text":false}}: emphasis.md 1`] = `
 _abc123_
 
 _强调a强调1_

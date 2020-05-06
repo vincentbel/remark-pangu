@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`paragraph.md with options: {"text":false}: paragraph.md 1`] = `
+exports[`paragraph.md with options: {"type":{"text":false}}: paragraph.md 1`] = `
 段落lol。
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 段落lol。

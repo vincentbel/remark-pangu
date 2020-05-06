@@ -34,26 +34,28 @@ remark().use(pangu).process(doc, (err, file) => {
 
 可以通过指定部分选项为 `false` 以跳过部分节点的排版处理
 
-e.g. 不处理 `inline code` 的内容
+e.g. 不处理 `inline code`, 跳过 `link` 中 `text` 的内容
 
 ```js
 remark().use(pangu, {
-  inlineCode: false
+  type: {
+    inlineCode: false
+  },
+  parent: {
+    link: {
+      text: false
+    }
+  }
 })
 ```
 
 #### Default Options
 
-```js
-{
-  text: true,
-  inlineCode: true,
-  link: true,
-  image: true,
-  imageReference: true,
-  definition: true,
-}
-```
+查阅 [default.js](src/defaults.js)
+
+- `type`: 选择的节点类型
+- `parents`: 跳过`父节点`-`子节点` 对
+  默认不跳过
 
 ## LICENSE
 

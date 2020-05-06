@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`delete.md with options: {"text":false}: delete.md 1`] = `
+exports[`delete.md with options: {"type":{"text":false}}: delete.md 1`] = `
 ~~abc123~~
 
 ~~我a我1~~

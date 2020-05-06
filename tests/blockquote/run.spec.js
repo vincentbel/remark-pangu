@@ -1,4 +1,6 @@
-runSpec(__dirname)
+runSpec(__dirname);
 runSpec(__dirname, {
-    text: false
-})
+  type: {
+    text: false,
+  },
+});

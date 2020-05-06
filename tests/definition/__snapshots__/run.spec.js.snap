@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`definition.md with options: {"definition":false}: definition.md 1`] = `
+exports[`definition.md with options: {"type":{"definition":false}}: definition.md 1`] = `
 [链接a引用1][link]
 
 ![图片b引用2][link]

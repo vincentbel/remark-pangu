@@ -7,7 +7,7 @@ const parse = require("remark-parse");
 const stringify = require("remark-stringify");
 const frontmatter = require("remark-frontmatter");
 const footnotes = require("remark-footnotes");
-const pangu = require("../index");
+const pangu = require("../src/index");
 
 const createProcessor = function (options) {
   return unified()

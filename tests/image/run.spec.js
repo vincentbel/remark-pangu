@@ -1,7 +1,11 @@
-runSpec(__dirname)
+runSpec(__dirname);
 runSpec(__dirname, {
-    image: false
-})
+  type: {
+    image: false,
+  },
+});
 runSpec(__dirname, {
-    imageReference: false
-})
+  type: {
+    imageReference: false,
+  },
+});
