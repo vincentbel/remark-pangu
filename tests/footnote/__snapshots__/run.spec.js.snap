@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`footnote.md with options: {"text":false}: footnote.md 1`] = `
+exports[`footnote.md with options: {"type":{"text":false}}: footnote.md 1`] = `
 lol[^footnote]
 
 我的a天[^脚注1]

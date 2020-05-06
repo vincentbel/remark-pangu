@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ordered-list.md with options: {"text":false}: ordered-list.md 1`] = `
+exports[`ordered-list.md with options: {"type":{"text":false}}: ordered-list.md 1`] = `
 1. abc123
 2. 我a我1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,7 +18,7 @@ exports[`ordered-list.md with options: undefined: ordered-list.md 1`] = `
 
 `;
 
-exports[`unordered-list.md with options: {"text":false}: unordered-list.md 1`] = `
+exports[`unordered-list.md with options: {"type":{"text":false}}: unordered-list.md 1`] = `
 * abc123
 * 我a我1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

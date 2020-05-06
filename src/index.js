@@ -41,8 +41,22 @@ function format(value) {
   return pangu.spacing(value);
 }
 
-function visitor(node) {
-  if (is(node, "text") || is(node, "inlineCode")) {
+const trueSet = (obj) => Object.keys(obj).filter((e) => obj[e]);
+const falseSet = (obj) => Object.keys(obj).filter((e) => !obj[e]);
+
+const parentIdentifier = (parent, rules) => {
+  if (rules) {
+    const subset = falseSet(rules);
+    if (parent && subset.includes(parent.type)) return false;
+  }
+
+  return true;
+};
+
+const typeIdentifier = (node, subset) => is(node, subset)
+
+const handler = (node) => {
+  if (is(node, "text") || is(node, "inlineCode") || is(node, "html")) {
     node.value = format(node.value);
   }
 
@@ -53,15 +67,17 @@ function visitor(node) {
   if (is(node, "image") || is(node, "imageReference")) {
     node.alt = format(node.alt);
   }
-}
+};
 
 module.exports = function attacher(options) {
   const settings = setOptions(options || {});
-  const subset = Object.keys(settings).filter((e) => settings[e]);
+  const subset = trueSet(settings.type);
 
   return function transformer(tree, file) {
-    visit(tree, (node) => {
-      if (is(node, subset)) visitor(node);
+    visit(tree, (node, index, parent) => {
+      if (typeIdentifier(node, subset)) 
+        if (parentIdentifier(parent, settings.parents[node.type]))
+          handler(node);
     });
   };
 };

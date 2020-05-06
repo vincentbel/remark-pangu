@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`mixed.md with options: {"definition":false,"image":false,"something":true}: mixed.md 1`] = `
+exports[`mixed.md with options: {"type":{"definition":false,"image":false,"something":true}}: mixed.md 1`] = `
 ---
 foo: bar
 baz: lol
