@@ -15,7 +15,7 @@ module.exports = {
      * Skip parent-children pairs
      * E.g 
      * link: {
-     *  text: true
+     *  text: false
      * }
      * means skip all text children under link
      */

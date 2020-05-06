@@ -43,7 +43,7 @@ remark().use(pangu, {
   },
   parent: {
     link: {
-      text: true
+      text: false
     }
   }
 })
