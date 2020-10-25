@@ -1,13 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`inline-code.md with options: {"inlineCode":false}: inline-code.md 1`] = `
+exports[`inline-code.md with options: {"inlineCode":true}: inline-code.md 1`] = `
 \`abc123\`
 
 \`我a我1\`
+
+\`new Date().getDate()\`
+
+\`JSON.stringify({'test': '值test'})\`
+
+\`./新建文件夹/node_modules/remark-pangu/index.js\`
+
+\`printf("a = %d, b = %d\\n", a, b); // 打印 a 和 b\`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \`abc123\`
 
-\`我a我1\`
+\`我 a 我 1\`
+
+\`new Date().getDate()\`
+
+\`JSON.stringify ({'test': ' 值 test'})\`
+
+\`./ 新建文件夹 /node_modules/remark-pangu/index.js\`
+
+\`printf ("a = % d, b = % d\\n", a, b); // 打印 a 和 b\`
 
 `;
 
@@ -15,9 +31,25 @@ exports[`inline-code.md with options: undefined: inline-code.md 1`] = `
 \`abc123\`
 
 \`我a我1\`
+
+\`new Date().getDate()\`
+
+\`JSON.stringify({'test': '值test'})\`
+
+\`./新建文件夹/node_modules/remark-pangu/index.js\`
+
+\`printf("a = %d, b = %d\\n", a, b); // 打印 a 和 b\`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \`abc123\`
 
-\`我 a 我 1\`
+\`我a我1\`
+
+\`new Date().getDate()\`
+
+\`JSON.stringify({'test': '值test'})\`
+
+\`./新建文件夹/node_modules/remark-pangu/index.js\`
+
+\`printf("a = %d, b = %d\\n", a, b); // 打印 a 和 b\`
 
 `;

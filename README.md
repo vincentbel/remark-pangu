@@ -32,13 +32,13 @@ remark().use(pangu).process(doc, (err, file) => {
 
 ### Options
 
-可以通过指定部分选项为 `false` 以跳过部分节点的排版处理
+可以通过设置 options 控制是否处理不同类型的 Markdown 节点。
 
-e.g. 不处理 `inline code` 的内容
+例如，此插件默认不处理 `inline code`，可以设置 `inlineCode: true` 开启处理：
 
 ```js
 remark().use(pangu, {
-  inlineCode: false
+  inlineCode: true
 })
 ```
 
@@ -47,7 +47,7 @@ remark().use(pangu, {
 ```js
 {
   text: true,
-  inlineCode: true,
+  inlineCode: false,
   link: true,
   image: true,
   imageReference: true,

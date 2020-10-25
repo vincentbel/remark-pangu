@@ -2,7 +2,7 @@
 
 module.exports = {
   text: true,
-  inlineCode: true,
+  inlineCode: false,
   link: true,
   image: true,
   imageReference: true,
